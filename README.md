@@ -1,2 +1,2 @@
-# vistas_umakeit
+# Vistas uMakeIt!
 Vistas para la primera entrega del proyecto uMakeIt!

@@ -37,13 +37,13 @@ form {
     background-color: rgb(204, 200, 200, .8);
 }
 
+.form-control {
+    border: 1px solid black;
+}
+
 .btn-primary {
     display: block;
     margin: 0 auto;
-}
-
-.form-control {
-    border: 1px solid black;
 }
 
 .nav-item{
