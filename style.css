@@ -7,12 +7,22 @@ body{
     background-color: #BB1100;
 }
 
-h1 {
-    font-family: 'K2D', sans-serif;
-    text-align: center;
-    color:white;
-    font-style: italic;
+#up-bar {
     background-color: rgb(105, 12, 4);
     height: 50px;
     border-bottom: 2px solid black;
+    position: relative;
+}
+
+h1{
+    font-family: 'K2D', sans-serif;
+    color:white;
+    font-style: italic;
+    display: inline;
+    margin-left: 30px;
+}
+
+#up-bar-funcs{
+    display: inline;
+    float: right;
 }
