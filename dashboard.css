@@ -1,5 +1,7 @@
 @import 'style.css';
 
+
+
 #up-bar {
     background-color: rgb(105, 12, 4);
     height: 50px;
@@ -81,6 +83,7 @@ h1{
     border-left: 3px solid black;
     border-right: 3px solid black;
     opacity: 0;
+    border-radius: 5px;
 }
 
 #opc-user ul{
@@ -113,5 +116,42 @@ h1{
     }
     #menu{
         width: 100%;
+    }
+}
+
+@media (max-width: 723px){
+    h1{
+        display: block;
+        margin:0;
+        width: 100%;
+        text-align: center;
+    }
+    #up-bar-funcs{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 5px;
+    }
+    #up-bar-funcs form{
+        display: block;
+        margin: 0 auto;
+        height: 100%;
+    }
+    #up-bar-funcs form input{
+        margin: 0 auto;
+    }
+    #up-bar-funcs span{
+        display: none;
+    }
+    #menu{
+        margin-top:50px;
+    }
+}
+
+@media (max-width: 477px){
+    #up-bar-funcs form input{
+        width: 65%;
+        min-width: 200px;
     }
 }
