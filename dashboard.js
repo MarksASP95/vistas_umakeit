@@ -7,12 +7,10 @@ $(document).ready(function(){
     
     $('#up-bar span').on('click', function() {
         if($('#opc-user').css('opacity') == 1){
-            console.log(1);
-            $('#opc-user').animate({opacity: 1}, 1000);
+            $('#opc-user').css({opacity: 0});
         }
         else{
-            console.log(0);
-            $('#opc-user').animate({opacity: 1}, 1000);
+            $('#opc-user').css({opacity: 1});
         }
     });
 });
