@@ -14,7 +14,7 @@ $(document).ready(function(){
 
         let opcUser = $('#opc-user');
 
-        opcUser.css('opacity') == 1 ? opcUser.css({opacity: 0}) : opcUser.css({opacity: 1});
+        opcUser.css('display') == 'block' ? opcUser.css({display: 'none'}) : opcUser.css({display: 'block'});
 
     });
 });
