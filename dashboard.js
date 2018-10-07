@@ -21,4 +21,14 @@ $(document).ready(function(){
         opcUser.css('display') == 'block' ? opcUser.css({display: 'none'}) : opcUser.css({display: 'block'});
 
     });
+
+    $('#menu-btn').on('click', function(){
+        $('#hidden-menu').css({left:0});
+        $('body').css({overflow:"hidden"});
+    });
+
+    $('#close').on('click', function(){
+        $('#hidden-menu').css({left:'100%'});
+        $('body').css({overflow:"scroll"});
+    })
 });
