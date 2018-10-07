@@ -1,0 +1,24 @@
+.card h5{
+    display: inline;
+}
+
+.card span{
+    color: #BB1100;
+}
+
+#card-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#card-buttons * {
+    margin:5px;
+}
+
+.btn-success{
+    display: block;
+    width:100px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
