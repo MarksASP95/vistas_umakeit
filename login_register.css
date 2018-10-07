@@ -15,8 +15,8 @@ h1{
 }
 
 form {
+    width: 350px;
     min-width: 220px;
-    width: 40%;
     border: 2px solid black;
     padding: 30px;
     margin: 0 auto;
@@ -38,4 +38,13 @@ form {
     width: 50%;
     text-align: center;
     background-color: white;
+}
+
+@media (max-width: 500px){
+    #forms-container{
+        width: 90%;
+    }
+    form{
+        width: 100%;
+    }
 }
