@@ -1,0 +1,12 @@
+li{
+    list-style-type: none;
+}
+
+li:not(:last-child){
+    border-bottom:1px solid black;
+}
+
+#history tbody tr:hover{
+    cursor: pointer;
+    background-color: rgba(204, 200, 200, .8);
+}
