@@ -12,6 +12,14 @@ $(document).ready(function(){
 
         $(this).attr('data-checked') == "1" ? $('#modificable').prop("checked",true) : $('#modificable').prop("checked",false);
 
-        $('#food_image').css({'background-image': `url('img/${foodImage}')`});  
+        $('#food_image').css({'background-image': `url('img/${foodImage}')`});
+        
+        $('input, textarea, button').each(function(){
+            $(this).prop('disabled', false);
+        });
     });
+
+    $('form').on('submit', function(){
+        alert('Producto editado');
+    })
 });

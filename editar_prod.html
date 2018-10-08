@@ -58,29 +58,29 @@
 
         <form>
             <div class="form-group">
-    
+                <label for="nombre">Nombre del producto</label>
+                <input class="form-control" type="text" name="nombre" id="nombre" required disabled>  
             </div>
-            <label for="nombre">Nombre del producto</label>
-            <input class="form-control" type="text" name="nombre" id="nombre">
+            
             
             <div class="form-group">
                 <label for="desc">Descripción</label>
-                <textarea class="form-control" name="desc" id="desc" style="resize: none; width: 100%;" require></textarea>
+                <textarea class="form-control" name="desc" id="desc" style="resize: none; width: 100%;" require disabled></textarea>
             </div>
     
             <div class="form-group">
                 <label for="precio">Precio</label>
-                <input class="form-control" type="text" id="precio" name="precio" require>
+                <input class="form-control" type="text" id="precio" name="precio" require disabled>
             </div>
     
     
             <div class="form-group">
                 <label for="modificable">Modificable</label>
-                <input type="checkbox" id="modificable" checked>
+                <input type="checkbox" id="modificable" checked disabled>
             </div>
     
             <div id="button-group">
-                <button type="submit" class="btn btn-primary">Aceptar</button>
+                <button type="submit" class="btn btn-primary" disabled>Aceptar</button>
             </div>
 
             <div id="food_image"></div>
