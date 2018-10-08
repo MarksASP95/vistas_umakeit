@@ -16,7 +16,6 @@ $(document).on('click', '#history tbody tr', function(){
 
     $('.modal-body').html('<p>Marca los elementos que quieres volver a comprar. <strong>Esto no afectará a tu carrito.</strong></p>').append(table);
     $('.modal-title').html("Recomprar");
-    $('')
 
     $('#exampleModal').modal();
 });
