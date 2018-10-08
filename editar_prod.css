@@ -1,0 +1,52 @@
+#content{
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#table-container{
+    overflow-y:scroll;
+    height: 300px;
+    margin-top: 60px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 500px;
+    text-align: center;
+    color: #212529;
+    cursor: pointer;
+}
+
+table tr{
+    border: 1px solid #DEE2E6;
+    background-color: white;
+}
+
+table tr:hover{
+    background-color: rgba(204, 200, 200, .8);
+}
+
+table tr td:nth-child(even){
+    width: 50%;
+}
+
+form{
+    position: relative;
+    margin:0;
+}
+form #nombre{
+    width: 70%;
+}
+
+#food_image{
+    position: absolute; 
+    top:40px;
+    right: 30px;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
