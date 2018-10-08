@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=K2D:600" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="panel.css">
+    <link rel="stylesheet" href="agregar_prod.css">
+    <title>uMakeIt!</title>
+</head>
+<body>
+
+    <div id="up-bar">
+        <h1><a href="panel.html">uMakeIt!</a></h1>
+    </div>
+
+
+    <h2>Agregar producto</h2>
+
+    <form>
+        <div class="form-group">
+
+        </div>
+        <label for="nombre">Nombre del producto</label>
+        <input class="form-control" type="text" name="nombre" id="nombre">
+        
+        <div class="form-group">
+            <label for="desc">Descripción</label>
+            <textarea class="form-control" name="desc" id="desc" style="resize: none; width: 100%;" require></textarea>
+        </div>
+        
+
+        <div class="form-group">
+            <label for="imagen">Imagen</label>
+            <input style="display:block;" type="file" id="imagen" accept="image/*" require>            
+        </div>
+
+
+        <div class="form-group">
+            <label for="precio">Precio</label>
+            <input class="form-control" type="text" id="precio" require>
+        </div>
+
+
+        <div class="form-group">
+            <label for="modificable">Modificable</label>
+            <input type="checkbox" id="modificable" checked>
+        </div>
+
+        <div id="button-group">
+            <button type="submit" class="btn btn-primary">Agregar</button>
+            <button type="reset" class="btn btn-secondary">Limpiar</button>
+        </div>
+
+
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="dashboard.js"></script>
+
+</body>
+</html>
