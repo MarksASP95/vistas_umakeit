@@ -24,13 +24,10 @@
     </div>
 
 
-    <h2>Editar productos</h2>
-
-
-
+    <h2>Habilitar o deshabilitar productos</h2>
 
     <div id="table-container">
-        <form id="prods">
+        <form onsubmit="success()" id="prods">
             <table>
                 <tr data-img-url="food1.jpg" data-checked="1">
                     <td>Comida 1</td>
@@ -73,7 +70,12 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="js/dashboard.js"></script>
-    <script src="js/editar_prod.js"></script>
+    
+    <script>
+        function success(){
+            alert("Tus cambios han sido realizados");
+        }
+    </script>
 
 </body>
 </html>
