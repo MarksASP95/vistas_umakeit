@@ -27,6 +27,11 @@ form {
     background-color: rgba(204, 200, 200, .8);
 }
 
+.nav-tabs{
+    width: 350px;
+    margin:0 auto;
+}
+
 .form-control {
     border: 1px solid black;
 }
@@ -46,7 +51,7 @@ form {
     #forms-container{
         width: 90%;
     }
-    form{
+    form, .nav-tabs{
         width: 100%;
     }
 }

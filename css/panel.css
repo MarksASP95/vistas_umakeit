@@ -36,3 +36,12 @@
     height: 100%;
     line-height: 50px;
 }
+
+@media (max-width: 450px){
+    #panel{
+        width: 90%;
+    }
+    #panel li a{
+        word-break: keep-all;
+    }
+}
