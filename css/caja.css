@@ -89,10 +89,10 @@ textarea{
     table{
         font-size: .6em;
     }
+}
 
 @media (max-width: 400px){
     #paypal-stuff{
         width: 100%;
     }
-}
 }
