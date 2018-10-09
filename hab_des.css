@@ -1,0 +1,38 @@
+#table-container{
+    width: 600px; 
+    height: 400px; 
+    margin:0 auto;
+}
+
+.btn-primary{
+    margin:0 auto;
+    display: block;
+}
+
+table{
+    width: 100%;
+}   
+
+form{
+    all: unset;
+}
+
+td:nth-last-child(1){
+    width: 15% !important;
+}
+
+.btn-primary{
+    margin-top: 30px;
+}
+
+@media (max-width:650px){
+    #table-container{
+        width: 90%;
+    }
+    tr{
+        height: 50px;
+    }
+    tr td:nth-child(2){
+        display:none;
+    }
+}
