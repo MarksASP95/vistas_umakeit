@@ -14,7 +14,7 @@
 
 table{
     border-collapse: collapse;
-    width: 500px;
+    width: 100%;
     text-align: center;
     color: #212529;
     cursor: pointer;
@@ -49,4 +49,37 @@ form #nombre{
     height: 100px;
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+@media (max-width: 1049px){
+    form{
+        margin-top:30px;
+    }
+}
+
+@media (max-width: 500px){
+    form #nombre{
+        width: 60%;
+    }
+}
+
+@media (max-width: 400px){
+    #food_image{
+        display: none;
+    }
+    form #nombre{
+        width: 100%;
+    }
+}
+
+@media (max-width:650px){
+    #table-container{
+        width: 90%;
+    }
+    tr{
+        height: 50px;
+    }
+    tr td:nth-child(2){
+        display:none;
+    }
 }
